@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #eddecc;
+  --secondary-color: #215a5e;
+  --primary-color-active: #e4d0b8;
+  --secondary-color-active: #12415b;
+  --white: rgb(245, 245, 245);
+  --black: rgb(35, 35, 35);
+}
+.logo {
+  position: absolute;
+  top: 0px;
+  scale: 70%;
+}
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 100px;
+}
+.block {
+  background-color: var(--primary-color);
+}
+
+.archBox {
+  width: 60%;
+  align-items: flex-end;
+  float: right;
+}
+.homeBox {
+  border-radius: 700px 700px 0px 0px;
+}
+.aboutBox {
+  border-radius: 0px 0px 700px 700px;
+}
+.logo {
+  margin-left: 5%;
+}
+.topNav {
+  background-color: var(--primary-color);
+  overflow: hidden;
+}
+.topNav a {
+  float: right;
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.topNav a:hover {
+  background-color: var(--white);
+  color: var(--secondary-color-active);
+}
+.topNav a.active {
+  background-color: var(--primary-color-active);
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.sideNav {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutText {
+  margin-left: 15%;
+  margin-right: 0.5%;
+}
+.img1 {
+  float: right;
+  margin: 7%;
+  scale: 70%;
+}
+.img2 {
+  float: right;
+  margin: 7%;
+  scale: 70%;
+}
