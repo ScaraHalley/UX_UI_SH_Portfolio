@@ -52,7 +52,7 @@ div {
   float: right;
   color: var(--secondary-color);
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px;
   text-decoration: none;
   font-size: 17px;
   margin-right: 0px;
@@ -96,30 +96,30 @@ div {
   top: 0;
   left: 100px;
 }
-.topnav {
+.sidenav {
   width: 100%;
   float: left;
   margin: 0 0 1em 0;
-  padding: 0;
+  padding: 20px;
   border-bottom: 1px solid #ccc;
   background-color: var(--primary-color);
   overflow: hidden;
   position: fixed;
 }
-.topnav ul {
+.sidenav ul {
   list-style: none;
-  max-width: 1100px;
+  max-width: 20%;
   margin: 0 auto;
-  padding: 0;
+  padding: 20px;
   display: flex;
   justify-content: flex-end;
 }
 
 /* Style the links inside the navigation bar */
-.topnav li {
-  float: right;
+.sidenav li {
+  float: left;
   color: var(--secondary-color);
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
