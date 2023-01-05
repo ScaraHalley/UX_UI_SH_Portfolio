@@ -20,18 +20,6 @@
 .block {
   background-color: var(--primary-color);
 }
-
-.archBox {
-0 0 width: 60%;
-  align-items: flex-end;
-  float: right;
-}
-.homeBox {
-  border-radius: 700px 700px 0px 0px;
-}
-.aboutBox {
-  border-radius: 0px 0px 700px 700px;
-}
 .logo {
   margin-left: 5%;
 }

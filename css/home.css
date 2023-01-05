@@ -1,0 +1,149 @@
+:root {
+  --primary-color: #eddecc;
+  --secondary-color: #215a5e;
+  --primary-color-active: #e4d0b8;
+  --secondary-color-active: #12415b;
+  --white: rgb(245, 245, 245);
+  --black: rgb(35, 35, 35);
+}
+div {
+  border: solid 1px red;
+}
+
+.flex {
+  display: flex;
+  inline-size: overflow-wrap;
+}
+.container {
+  padding: 0;
+  margin: 0;
+}
+.topbar {
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  position: absolute;
+  scale: 70%;
+  top: 0;
+  left: 100px;
+}
+.topnav {
+  width: 100%;
+  float: left;
+  margin: 0 0 1em 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+  background-color: var(--primary-color);
+  overflow: hidden;
+  position: fixed;
+}
+.topnav ul {
+  list-style: none;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Style the links inside the navigation bar */
+.topnav li {
+  float: right;
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 0px;
+  border-radius: 5px;
+}
+
+/* Change the color of links on hover */
+.topnav li:hover {
+  background-color: var(--primary-color-active);
+  color: var(--secondary-color-active);
+  border-radius: 5px;
+}
+
+/* Add a color to the active/current link */
+.topnav li.active {
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 5px;
+}
+
+.body {
+  margin: 200px 100px 20px 100px;
+  background-color: white;
+}
+
+.flex {
+  display: flex;
+  inline-size: overflow-wrap;
+}
+.container {
+  padding: 0;
+  margin: 0;
+}
+.topbar {
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  position: absolute;
+  scale: 70%;
+  top: 0;
+  left: 100px;
+}
+.topnav {
+  width: 100%;
+  float: left;
+  margin: 0 0 1em 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+  background-color: var(--primary-color);
+  overflow: hidden;
+  position: fixed;
+}
+.topnav ul {
+  list-style: none;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Style the links inside the navigation bar */
+.topnav li {
+  float: right;
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 0px;
+}
+
+/* Change the color of links on hover */
+.sidenav li:hover {
+  background-color: var(--primary-color-active);
+  color: var(--secondary-color-active);
+  border-radius: 5px;
+}
+
+/* Add a color to the active/current link */
+.sidenav li.active {
+  color: var(--secondary-color-active);
+  border-radius: 5px;
+}
+.content {
+}
+
+#column {
+  flex-direction: column;
+}
+#row {
+  flex-direction: row;
+}
